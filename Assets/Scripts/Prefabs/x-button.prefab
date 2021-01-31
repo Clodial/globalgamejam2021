@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3739727218443975555}
   - component: {fileID: 902606599022425426}
   - component: {fileID: 7544576690865187953}
+  - component: {fileID: 1322705071987265600}
+  - component: {fileID: 4858492194969442601}
   m_Layer: 5
   m_Name: x-button
   m_TagString: Untagged
@@ -121,6 +123,32 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1322705071987265600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3250193236246650004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!114 &4858492194969442601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3250193236246650004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd0708c7a577bc4dbc77cf87230c5ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneLoader: 1
 --- !u!1 &4510036750035120418
 GameObject:
   m_ObjectHideFlags: 0

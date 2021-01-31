@@ -5,13 +5,14 @@ using UnityEngine;
 public class MainGameManager : MonoBehaviour
 {
 
-    private int Day { get; set; }
-    private int Char1Overall { get; set; }
-    private int Char1Curr { get; set; }
-    private int Char2Overall { get; set; }
-    private int Char2Curr { get; set; }
-    private int Char3Overall { get; set; }
-    private int Char3Curr { get; set; }
+    public int Day { get; set; }
+    public int Char1Overall { get; set; }
+    public int Char1Curr { get; set; }
+    public int Char2Overall { get; set; }
+    public int Char2Curr { get; set; }
+    public int Char3Overall { get; set; }
+    public int Char3Curr { get; set; }
+    public int photoIndex { get; set; }
     public Queue photoAlbum;
 
     // Start is called before the first frame update
